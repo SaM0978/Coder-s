@@ -1,0 +1,127 @@
+{
+     "1": {
+          "name": "Mohammad Hussain",
+          "date_of_birth": "09/12/2017",
+          "balance": 0,
+          "pin": "1010",
+          "sus": 0,
+          "loan_payble": "True"
+     },
+     "2": {
+          "name": "Abdus Samad",
+          "date_of_birth": "09/10/2009",
+          "balance": 1696506,
+          "pin": "1090",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "3": {
+          "name": "Zainab",
+          "date_of_birth": "09/12/2014",
+          "balance": 591944,
+          "pin": "1010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "4": {
+          "name": "Vaseem",
+          "date_of_birth": "09/12/2017",
+          "balance": 0,
+          "pin": "1010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "5": {
+          "name": "None",
+          "date_of_birth": "N/A",
+          "balance": 1870000,
+          "pin": "1010",
+          "sus": 5,
+          "deposit": "False",
+          "loan_payble": "True"
+     },
+     "6": {
+          "name": "Zeenat",
+          "date_of_birth": "09/12/2017",
+          "balance": 30,
+          "pin": "1010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "7": {
+          "name": "New_User",
+          "date_of_birth": "10/2/2014",
+          "balance": 1389001,
+          "pin": "9010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "8": {
+          "name": "Golu",
+          "date_of_birth": "3/5/2013",
+          "balance": 60166079,
+          "pin": "8692",
+          "sus": 5,
+          "deposit": "False",
+          "loan_payble": "True"
+     },
+     "9": {
+          "name": "Hussain",
+          "date_of_birth": "09/03/2003",
+          "balance": 190401,
+          "pin": "1010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "10": {
+          "name": "Cafe-Shop-Owner",
+          "date_of_birth": "09/09/2009",
+          "balance": 4900,
+          "pin": "1010",
+          "sus": 0,
+          "deposit": "True",
+          "loan_payble": "True"
+     },
+     "11": {
+          "name": "StartUp",
+          "date_of_birth": "09/09/2233",
+          "balance": 100,
+          "sus": 0,
+          "loan_payble": "False",
+          "deposit": "True",
+          "pin": 0
+     },
+     "12": {
+          "name": "Abdus",
+          "date_of_birth": "09/10/2009",
+          "balance": 30000,
+          "sus": 0,
+          "loan_payble": "False",
+          "deposit": "True",
+          "pin": 0
+     },
+     "13": {
+          "name": "Shopkeeper",
+          "date_of_birth": "",
+          "balance": 0,
+          "sus": 0,
+          "loan_payble": "False",
+          "deposit": "True",
+          "pin": 0
+     },
+     "14": {
+          "name": "Shopkeeper",
+          "date_of_birth": "09/10/2014",
+          "balance": 20000,
+          "sus": 0,
+          "loan_payble": "False",
+          "deposit": "True",
+          "pin": 0
+     }
+}

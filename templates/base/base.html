@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %} | Coder's </title>
+    {% block link %}
+                    
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'base/base.css' %}">
+</head>
+<body>
+    <div class="navbar">   
+        <ul class="left">
+            {% if not request.user.is_authenticated %}
+            <li><button class="cores"><a href="{% url 'core:login' %}">Login</a></button></li>
+            <li><button class="cores"><a href="{% url 'core:signup' %}">Signup</a></button></li>
+            {% endif %}
+            <li><button class="cores"><a href="#">Dashboard</a></button></li>
+        </ul>
+        <div class="name">
+            <a href="/"><h1 class="Corders">Coders</h1></a>
+        </div>
+    </div>
+    <div class="wrapper">
+        {% block body %} 
+        {% endblock %}
+    </div>
+    <div class="footer center" id="footer">
+        Coder's &copy;
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+          var footer = document.getElementById('footer');
+          var distanceToTop = footer.getBoundingClientRect().top;
+          var viewHeight = window.innerHeight;
+    
+          if (distanceToTop < viewHeight) {
+            footer.classList.add('show-footer');
+          } else {
+            footer.classList.remove('show-footer');
+          }
+        });
+      </script>
+</body>
+</html>

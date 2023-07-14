@@ -1,0 +1,34 @@
+{
+     "1": {
+          "person": "New_User",
+          "amount": 500000,
+          "loan_rate": 0,
+          "item_to_be_kept": "House",
+          "loan_paid": 500000,
+          "loan_remaining": 0
+     },
+     "2": {
+          "person": "Abdus Samad",
+          "amount": 100000,
+          "loan_rate": 24,
+          "item_to_be_kept": "House",
+          "loan_paid": 124000,
+          "loan_remaining": 0
+     },
+     "3": {
+          "person": "New_User",
+          "amount": 500000,
+          "loan_rate": 0,
+          "item_to_be_kept": "House",
+          "loan_paid": 500000,
+          "loan_remaining": 0
+     },
+     "4": {
+          "person": "Hussain",
+          "amount": 200000,
+          "loan_rate": 11,
+          "item_to_be_kept": "House",
+          "loan_paid": 0,
+          "loan_remaining": 222000
+     }
+}

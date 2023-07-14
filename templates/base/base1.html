@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %} | Coder's </title>
+    {% block link %}
+                    
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'base/base.css' %}">
+</head>
+<body>
+    <div class="navbar">   
+        <ul class="left">
+            <li><button class="cores"><a href="#">Login</a></button></li>
+            <li><button class="cores"><a href="#">Signup</a></button></li>
+            <li><button class="cores"><a href="#">Dashboard</a></button></li>
+        </ul>
+        <div class="name">
+            <a href="/"><h1>Coders</h1></a>
+        </div>
+    </div>
+    {% block body %} 
+
+    {% endblock %}
+    <div class="footer center">
+        Coder's &copy;
+    </div>
+</body>
+</html>

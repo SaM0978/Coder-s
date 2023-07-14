@@ -1,0 +1,29 @@
+{
+     "1": {
+          "name": "Mishra_Ji",
+          "date_of_birth": "10/09/2009",
+          "balance": 11000000,
+          "sus": 0,
+          "loan_payble": "True",
+          "pin": "9000",
+          "deposit": "True"
+     },
+     "2": {
+          "name": "Chacha",
+          "date_of_birth": "0/0/0",
+          "balance": 9855000,
+          "sus": 0,
+          "loan_payble": "True",
+          "pin": "1234",
+          "deposit": "True"
+     },
+     "3": {
+          "name": "Officer",
+          "date_of_birth": "09/04/2014",
+          "balance": 174000,
+          "loan_payble": "True",
+          "sus": 0,
+          "pin": "1234",
+          "deposit": "True"
+     }
+}

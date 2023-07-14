@@ -1,0 +1,39 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block title %} {{item.title}} {% endblock %}
+
+{% block link %}
+    <link rel="stylesheet" href="{% static 'items/items.css' %}">        
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="item-display">
+      <div class="item">
+        <img src="{{ item.image.url }}">
+      </div>
+    </div>
+    <div class="item-info d-flex">
+        <div class="inner">
+            <div class="title">
+                <h1 class="title-h">{{ item.title }}</h1>
+            </div>
+            <div class="desc t-center">
+                <h2 class="title-h">{{ item.desc }}</h2>
+            </div>
+            <div class="payment t-center">
+                <h3 class="title-h">₹{{ item.price }}</h3>    
+            </div>
+            <form method="post" class="t-center" action="/payment/{{item.iid}}">
+                {% csrf_token %}
+                <a class="payment-button"><button class="button" type="submit">Make Payment</button></a>
+            </form>
+        </div>
+    </div>
+  </div>
+  
+  
+{% endblock %}
+

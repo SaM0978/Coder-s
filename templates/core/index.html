@@ -1,0 +1,33 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'core/style.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    {% for i in items %}
+    <div class="box">
+        <a href="items/{{i.iid}}">
+            <div class="upper">
+                <div class="img">
+                    <img src="{{i.image.url}}" alt="">
+                </div>
+            </div>
+        </a>
+        <div class="lower">
+            <div class="title">
+                {{i.title}}
+            </div>
+            <div class="desc">
+                {{i.desc}}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
